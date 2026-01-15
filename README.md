@@ -56,3 +56,15 @@ Ask the agent to look for correlations in your data.
 ```text
 > /insight
 ```
+
+**Example Output:**
+
+> "Reviewing your logs... I noticed your energy dips consistently around 3 PM on days you skip protein at breakfast. Also, your current fatigue aligns with Day 26 of your cycle (Luteal Phase)."
+
+## The Persona
+
+When this pack is active, Claude follows these rules:
+
+- **Validate:** Acknowledge the log briefly.
+- **Contextualize:** Relate symptoms to the current cycle day.
+- **No Shame:** Food is fuel. Tracking is data, not judgment.
